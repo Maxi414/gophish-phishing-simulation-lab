@@ -3,10 +3,10 @@
 An end-to-end phishing campaign built and run from scratch: a GoPhish server hidden behind an Nginx reverse proxy, passive OSINT with theHarvester, a credential-harvesting landing page, and a full campaign fired against a fictional organization, tracked from *email sent* all the way to *credentials captured in cleartext*. Every email stays inside the lab.
  
  ## Demo
+https://github.com/user-attachments/assets/822e2c24-7bb3-4604-8044-43635fd02723
 
 
 
-   
 This is the **human-factor layer** of my home lab. My [OS Bunker](.) lab hardened a Linux box (prevention), my [AWS Hardening](.) lab did the same in the cloud, and my [Wazuh SIEM](.) lab answered "if someone gets in, do I see it?" (detection). This one attacks the layer none of those cover: the person reading the email. No exploit, no CVE, just a convincing message and a fake login page.
 
 ## Ethical Scope & Authorization
