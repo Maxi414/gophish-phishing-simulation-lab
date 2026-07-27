@@ -4,7 +4,8 @@ An end-to-end phishing campaign built and run from scratch: a GoPhish server hid
  
  ## Demo
 
-   https://github.com/Maxi414/gophish-phishing-simulation-lab/raw/main/demo/VideoDemostracion.mp4
+
+
    
 This is the **human-factor layer** of my home lab. My [OS Bunker](.) lab hardened a Linux box (prevention), my [AWS Hardening](.) lab did the same in the cloud, and my [Wazuh SIEM](.) lab answered "if someone gets in, do I see it?" (detection). This one attacks the layer none of those cover: the person reading the email. No exploit, no CVE, just a convincing message and a fake login page.
 
